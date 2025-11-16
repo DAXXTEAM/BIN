@@ -10,7 +10,7 @@ from datetime import datetime
 
 API_ID = 24509589
 API_HASH = "717cf21d94c4934bcbe1eaa1ad86ae75"
-BOT_TOKEN = "7866558507:AAGVjujfhOWuDfit2R7fNFPGwsCRnl2JOek"
+BOT_TOKEN = "8529807653:AAGa3fUu5hvV4y16g_wtAuuXgnG-kGnuKms"
 app = Client("Flah", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, in_memory=True)
 
 CARD_GEN_LIMIT = 50000000
@@ -556,4 +556,5 @@ async def start_command(client, message):
     await message.reply_text(start_text)
 
 print("Bot Started!")
+
 app.run()
